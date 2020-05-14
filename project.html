@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Introduction</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Roboto&display=swap" rel="stylesheet">    
+</head>
+<body>
+    <div class="title-nav"> 
+        <header class="title">
+            <h1>Hyein Son</h1>
+        </header>
+        
+        <nav class="nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Project</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="wrapper3">
+       
+        <canvas class="canvas" id="jsCanvas"></canvas>
+               
+        <div class="controls">
+            <div class="controls_input">
+                <i class="fas fa-paint-brush fa-2x"></i>
+                <input type="color" name="base" value="#000000">
+                <input type="range" min="1" max="10" step="1" value="3">
+            </div>
+            <div class="controls_btns">
+                <button class="control_fill"><i class="fas fa-fill fa-2x"></i></button>
+                <button class="control_reset"><i class="fas fa-eraser fa-2x"></i></button>
+                <button class="control_save"><i class="far fa-save fa-2x"></i></button>
+            </div> 
+        </div>     
+    </div>
+    <script src="paint.js"></script>
+</body>
+</html>
